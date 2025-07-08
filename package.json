@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
-  "scripts": {},
+  "scripts": {
+    "build": "echo Esto es una prueba"
+  },
   "keywords": [],
   "author": "",
   "license": "Unlicense"
