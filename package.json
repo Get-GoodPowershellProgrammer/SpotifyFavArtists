@@ -1,0 +1,10 @@
+{
+  "name": "spotify-fav-artists",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense"
+}
