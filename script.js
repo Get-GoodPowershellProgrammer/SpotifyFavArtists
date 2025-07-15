@@ -1,4 +1,4 @@
-const SPOTIFY_API_KEY = "THIS_IS_A_PLACEHOLDER_FOR_YOUR_KEY";
+const clientId = process.env.SPOTIFY_CLIENT_ID || "PLACEHOLDER_CLIENT_ID"; //TODO: Poner ID de verdad
 const redirectUri = "PLACEHOLDER_REDIRECT_URI"; //TODO: Poner URL de verdad
 const scopes = ["user-read-private", "user-read-email", "user-library-read"];
 
