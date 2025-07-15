@@ -1,5 +1,5 @@
 const clientId = "39576f506cf94c5d999f814598c65927"; //TODO: Poner ID de verdad
-const redirectUri = "PLACEHOLDER_REDIRECT_URI"; //TODO: Poner URL de verdad
+const redirectUri = "https://get-goodpowershellprogrammer.github.io/SpotifyFavArtists/"; 
 const scopes = ["user-read-private", "user-read-email", "user-library-read"];
 
 function redirectToSpotifyAuth() {
