@@ -1,4 +1,4 @@
-const clientId = env.SPOTIFY_API_KEY || "PLACEHOLDER_CLIENT_ID"; //TODO: Poner ID de verdad
+const clientId = "39576f506cf94c5d999f814598c65927"; //TODO: Poner ID de verdad
 const redirectUri = "PLACEHOLDER_REDIRECT_URI"; //TODO: Poner URL de verdad
 const scopes = ["user-read-private", "user-read-email", "user-library-read"];
 
