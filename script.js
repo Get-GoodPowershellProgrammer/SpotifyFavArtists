@@ -1,12 +1,12 @@
 const clientId = "39576f506cf94c5d999f814598c65927"; //TODO: Poner ID de verdad
-const redirectUri = "https://get-goodpowershellprogrammer.github.io/SpotifyFavArtists/"; 
+const redirectUri = "https://get-goodpowershellprogrammer.github.io/SpotifyFavArtists"; 
 const scopes = ["user-read-private", "user-read-email", "user-library-read"];
 
 function redirectToSpotifyAuth() {
   const authUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=${encodeURIComponent(
     redirectUri
   )}&scope=${encodeURIComponent(scopes.join(" "))}`;
-  window.open(authUrl, "_blank");
+  window.Location.href = authUrl;
 }
 
 // Extract the access token from the URL
