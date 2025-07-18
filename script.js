@@ -6,7 +6,7 @@ function redirectToSpotifyAuth() {
   const authUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=${encodeURIComponent(
     redirectUri
   )}&scope=${encodeURIComponent(scopes.join(" "))}`;
-  window.Location.href = authUrl;
+  window.location.href = authUrl;
 }
 
 // Extract the access token from the URL
